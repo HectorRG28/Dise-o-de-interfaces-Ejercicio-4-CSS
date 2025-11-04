@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+    <body>
+        <header>
+            <h1>Mi Portfolio Personal</h1>
+            <p>Desarrollador Web en formación</p>
+        </header>
+   
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="sobre.html">Sobre mí</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <form>
+        <h2>Contacto</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+       <h2>Email</h2>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <h2>Sexo</h2>
+        <label for="sexo-masculino">Masculino</label>
+        <input type="radio" id="sexo-masculino" name="sexo" value="masculino" required>
+        <label for="sexo-femenino">Femenino</label>
+        <input type="radio" id="sexo-femenino" name="sexo" value="femenino" required>
+        <label for="sexo-otro">Otro</label>
+        <input type="radio" id="sexo-otro" name="sexo" value="otro" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <p>2025 Mi Portfolio Personal. Todos los derechos reservados.</p>
+        <p>Diseñado (con mucho caos) para la clase de DIW.</p>
+    </footer>
+
+</body>
+</html>
