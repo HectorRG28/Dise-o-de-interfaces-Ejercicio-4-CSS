@@ -1,3 +1,26 @@
+/* 
+========================================
+Psicología del color en el diseño
+----------------------------------------
+En este diseño se utilizan tonalidades cálidas (amarillos y naranjas) 
+que transmiten energía, optimismo y cercanía. 
+
+- #E0D84F (amarillo suave): evoca alegría, creatividad y dinamismo. 
+  Ideal para un fondo que aporte luminosidad sin saturar la vista.
+
+- #DE8B50 y #DEA350 (naranjas cálidos): representan entusiasmo, 
+  amabilidad y motivación. Estos tonos se usan en el encabezado, 
+  la navegación y el pie de página para generar una sensación 
+  acogedora y positiva.
+
+- #DEC650 (amarillo dorado): transmite calidez, estabilidad y 
+  profesionalismo, resaltando elementos como cajas de contenido.
+
+En conjunto, la paleta crea una atmósfera amigable, activa y 
+visual­mente equilibrada, ayudando a mantener la atención del usuario 
+y a reforzar una identidad comunicativa alegre y accesible.
+========================================
+*/
 body {
     background-color: #E0D84F; /* Fondo general suave */
     color: #333;
@@ -7,7 +30,7 @@ body {
 }
 
 header {
-    background-color: #DE8B50; /* Color cálido para encabezado */
+    background-color: #DE8B50; /* Color cálido para decorar el encabezado */
     color: white;
     padding: 20px 40px;
     text-align: center;
@@ -24,7 +47,7 @@ header p {
 }
 
 nav {
-    background-color: #DEA350; /* Barra de navegación */
+    background-color: #DEA350; /* Barra de navegación entre menús */
     padding: 10px 40px;
 }
 
@@ -48,7 +71,7 @@ nav a {
 }
 
 nav a.activo {
-    color: #DEB450; /* Color de enlace activo */
+    color: #DEB450; /* Color del enlace  */
 }
 
 main {
@@ -57,7 +80,7 @@ main {
 }
 
 .caja-contenido {
-    background-color: #DEC650; /* Fondo de los contenedores */
+    background-color: #DEC650; /* Fondo de las cajas con etiquetas */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -70,21 +93,21 @@ h2 {
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.6; /*párrafos*/
 }
 
-.lista-habilidades {
+.lista-habilidades { /*lista con su estilo y el tamaño del margen*/
     list-style: square;
     padding-left: 20px;
 }
 
-.lista-habilidades li {
+.lista-habilidades li { 
     margin-bottom: 10px;
     font-weight: bold;
 }
 
 footer {
-    background-color: #DEA350; /* Pie de página con contraste */
+    background-color: #DEA350; /* Pie de página con contraste de colores */
     color: #fff;
     padding: 20px 40px;
     text-align: center;
